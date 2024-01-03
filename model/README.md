@@ -1,0 +1,3 @@
+# TrashPic
+
+Recycling made easy.

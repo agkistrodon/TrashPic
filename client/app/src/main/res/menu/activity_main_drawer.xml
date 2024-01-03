@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_cardboard"
+            android:icon="@drawable/cardboard"
+            android:title="Cardboard" />
+        <item
+            android:id="@+id/nav_glass"
+            android:icon="@drawable/glass"
+            android:title="Glass" />
+        <item
+            android:id="@+id/nav_metal"
+            android:icon="@drawable/metal"
+            android:title="Metal" />
+        <item
+            android:id="@+id/nav_paper"
+            android:icon="@drawable/paper"
+            android:title="Paper" />
+        <item
+            android:id="@+id/nav_plastic"
+            android:icon="@drawable/plastic"
+            android:title="Plastic" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/trash"
+            android:title="Trash" />
+    </group>
+</menu>

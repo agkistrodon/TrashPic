@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/baloo_bhai_2</item>
+        <item>@font/baloo_bhaijaan</item>
+        <item>@font/karma_light</item>
+        <item>@font/manjari_thin</item>
+        <item>@font/recursive_light</item>
+        <item>@font/yusei_magic</item>
+    </array>
+</resources>

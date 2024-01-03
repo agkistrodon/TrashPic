@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFE">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/bgView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plasticbg" />
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/bgView"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:text="Plastic"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/responseTV"
+            android:layout_width="255dp"
+            android:layout_height="79dp"
+            android:layout_below="@id/bgView"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Recycle It!"
+            android:textColor="#0020FF"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/unlessTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/responseTV"
+            android:layout_marginLeft="0dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:paddingLeft="15dp"
+            android:text="Unless..."
+            android:textColor="#FF0000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/notesTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/unlessTV"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="-34dp"
+            android:fontFamily="sans-serif"
+            android:padding="15dp"
+            android:text="1. It is a plastic bag or wrap
+            \n\t\t\t\t• Reuse plastic bags!
+            \n\t\t\t\t• Return to a nearby retail location!
+            \n\t\t\t\t• If it's used, trash it!
+            \n\n2. It is a plastic utensil or straw
+            \n\t\t\t\t•	Trash it!
+            \n\n3. It is Styrofoam
+            \n\t\t\t\t• Trash it!
+
+            \n\nOther notes:
+            \n\t\t\t\t•	Trash any lids smaller than 3 in.!
+            \n\t\t\t\t• Recycle plastic caps on bottles!
+            \n\t\t\t\t• Empty, clean, and dry the plastic.
+"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

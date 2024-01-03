@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.cac.trashpic.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cardboard"
+        android:name="com.cac.trashpic.ui.cardboard.CardboardFragment"
+        android:label="Cardboard"
+        tools:layout="@layout/fragment_cardboard" />
+
+    <fragment
+        android:id="@+id/nav_glass"
+        android:name="com.cac.trashpic.ui.glass.GlassFragment"
+        android:label="Glass"
+        tools:layout="@layout/fragment_glass" />
+
+    <fragment
+        android:id="@+id/nav_metal"
+        android:name="com.cac.trashpic.ui.metal.MetalFragment"
+        android:label="Metal"
+        tools:layout="@layout/fragment_metal" />
+
+    <fragment
+        android:id="@+id/nav_paper"
+        android:name="com.cac.trashpic.ui.paper.PaperFragment"
+        android:label="Paper"
+        tools:layout="@layout/fragment_paper" />
+
+    <fragment
+        android:id="@+id/nav_plastic"
+        android:name="com.cac.trashpic.ui.plastic.PlasticFragment"
+        android:label="Plastic"
+        tools:layout="@layout/fragment_plastic" />
+
+    <fragment
+        android:id="@+id/nav_trash"
+        android:name="com.cac.trashpic.ui.trash.TrashFragment"
+        android:label="Trash"
+        tools:layout="@layout/fragment_trash" />
+</navigation>
