@@ -12,7 +12,7 @@ import java.util.Dictionary;
 
 public class Variables {
 
-    public static final String endpoint_url = "https://predict-bk3qauef2q-uw.a.run.app";
+    public static final String endpoint_url = "http://127.0.0.1:5000";
 
     public static final int CAMERA_REQUEST = 1888;
 
